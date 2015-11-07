@@ -1,0 +1,28 @@
+{
+  "name": "smartview-client",
+  "version": "1.0.0",
+  "description": "Blackmagic Design™ SmartView control protocol client parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js",
+    "docs": "jsdoc2md index.js > api.md"
+  },
+  "keywords": [
+    "blackmagic",
+    "smartview"
+  ],
+  "author": "Jan Schär <jscissr@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/jscissr/smartview-client",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jscissr/smartview-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jscissr/smartview-client/issues"
+  },
+  "devDependencies": {
+    "jsdoc-to-markdown": "^1.2.0",
+    "tape": "^4.2.2"
+  }
+}
